@@ -1,5 +1,9 @@
 'use strict';
 
+window.onload = function() {
+    alert( "welcome" );
+}
+
 function Thermostat() {       // Created a Thermostat object constructor and gives it a property of temperature
   this.temperature = 20;
   this.MINIMUM_TEMPERATURE = 10;
